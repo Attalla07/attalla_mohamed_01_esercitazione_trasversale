@@ -1,11 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kalyobiya eSports - Contatti</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Kalyobiya eSports</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="roster.html">Roster</a></li>
+                <li><a href="calendario.html">Calendario</a></li>
+                <li><a href="contatti.html">Contatti e Sponsor</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="profile-card">
+            <h2>Contattaci / Sponsor</h2>
+            <hr>
+            <form action="#" method="post">
+                <p class="subtitle">
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome">
+                </p>
+                <p class="subtitle">
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email">
+                </p>
+                <p class="subtitle">
+                    <label for="tipo">Motivo:</label><br>
+                    <select id="tipo" name="tipo">
+                        <option value="sponsor">Sponsor</option>
+                        <option value="info">Informazioni</option>
+                    </select>
+                </p>
+                <p class="subtitle">
+                    <label for="messaggio">Messaggio:</label><br>
+                    <textarea id="messaggio" name="messaggio"></textarea>
+                </p>
+                <button type="submit">Invia</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p class="subtitle">&copy; 2026 Kalyobiya eSports</p>
+    </footer>
 </body>
 </html>
